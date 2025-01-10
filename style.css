@@ -15,7 +15,9 @@ nav {
 }
 
 nav>h2 {
+    color: #351c1c;
     font-weight: bold;
+    background-color: #ebebea;
 }
 
 nav>button {
@@ -419,48 +421,262 @@ select{
 }
 
 
+.News h1{
+    margin: 100px 80px 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.News p{
+    margin: 20px 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.last-container{
-    height: 200px;
+.section5{
     display: flex;
+    background-color: #c84646;
+}
+img.news{
+    background-color: #e3a8a8;
+    height: 40px;
+    width: 100px;
+}
+.box11{
+    background-color: rgb(73, 165, 102);
+    display: flex;
+    height: 400px;
     justify-content: space-between;
     padding: 30px 15px;
-    background-color: #ffffff;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 32px;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
+.leftbox{
+    background-color: rgb(125, 24, 24);
+    margin-left:40px ;
+}
+.rightbox, .rightbox{
+    background-color: rgb(65, 27, 27);
+}
 
-footer , h2{
+.setalite{
+    margin: 20px 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #C6E4D6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.donate>h2{
+    background-color: #e2e3dd00;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.donate>p{
+    background-color: #e2e3dd00;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+.tk{
+    margin: 0px 10px;
+    text-align: center;
+    background-color: #bcde1100;
+    height: 60px;
+    font-size: 26px;
+    width: 120px;
+    border: 1px solid #86868685;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#tk1{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #C6E4D6;
+    height: 70px;
+    width: 130px;
+    border: 1px solid #86868685;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+#tk1:hover{
+    font-size: 27px;
+    font-weight: bold;
+    height: 60px;
+    width: 120px;
+    background-color: #da1919;
+    color: #0f0f0f;
+    transition: 1s;
+}
+
+
+.money{
+    margin: 20px 20px;
+    justify-content: center;
+    text-align: center;
+}
+.tk:hover{
+    font-size: 27px;
+    font-weight: bold;
+    height: 70px;
+    width: 130px;
+    background-color: #da1919;
+    color: #0f0f0f;
+    transition: 1s;
+}
+#other-amount{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #cff510;
+    padding: 1px 1px;
+    width: 500px;
+    transition: 1s;
+}
+#other{
+    padding: 10px 0px;
+    margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
+    box-shadow: 0 0px 5px 0 #49583fa3;
+    height: 50px;
+    width: 500px;
+    border: 1px solid #86868685;
+    cursor:text;
+}
+
+.donate-button{
+    margin: 20px auto;
+    text-align: center;
+    background-color: #60c49500;
+    height: 20px;
+    width: 150px;
+    border: 1px solid #86868685;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#donate{
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #86868685;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+#donate:hover{
+    background-color: #da1919;
+    color: #0f0f0f;
+    font-size: 22px;
+    font-weight: 800;
+    height: 42px;
+    width: 152px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    bottom: 0;
+    position: bottom;
+    background-color: #ffffff;
+    width: 100%;
+    height: 300px;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+
+.last-container{
+    justify-content: center;
     margin: 0 auto;
+    padding: 30px 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.last-container h2 {
+    font-weight: bold;  
+    font-size: 30px;
+    background-color: #ffffff;
+    
+}
+.logos{
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+.logos a{
+    background-color: #ffffff;
+    margin: 0px 20px;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
 }
