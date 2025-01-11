@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #ebebea;
-    font-family: 'fira sans';
+    font-family: 'fira sans' , sans-serif , monospace;
+
 }
 
 nav {
@@ -24,7 +25,7 @@ nav>button {
     border: 1px solid #1f7633;
     background-color: #f5f5f5;
     color: #20a01b;
-    font-weight: 600;
+    font-weight: 800;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
@@ -46,7 +47,7 @@ nav>button:hover {
     justify-content: space-between;
     padding: 30px 15px;
     font-family: 'fira sans';
-    margin: 0 auto;
+    margin: 10px auto;
     width: 80%;
     line-height: 90px;
     /*line-height*/
@@ -75,12 +76,13 @@ nav>button:hover {
 }
 
 .left {
-    margin-left: 0px;
+    margin-left: 10px;
     padding: 20px;
     background-color: #C6E4D6;
 }
 
 .left small {
+    margin-left: 10px;
     font-size: 15px;
     font-weight: 200;
     color: #00000086;
@@ -88,8 +90,9 @@ nav>button:hover {
 }
 
 .left h3 {
+    margin-top: 0px;
     /* line-height */
-    line-height: 60px;
+    line-height: 50px;
     font-size: 56px;
     font-weight: bolder;
     background-color: #C6E4D6;
@@ -99,24 +102,36 @@ nav>button:hover {
 img {
     background-color: #C6E4D6;
     height: 300px;
-    width: 300px;
     margin-top: 50px;
+    width: 400px;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 
 
 
 
-
+.pillarbox {
+    padding: 30px 15px;
+    background-color: #ebebea;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
 
 
 .pillars {
+    
+    margin: 0px 50px;
     font-size: 40px;
     font-weight: bold;
-    margin-left: 50px;
 }
 
 .section1 {
+    
     display: flex;
     justify-content: space-between;
     padding: 30px 15px;
@@ -192,8 +207,9 @@ img {
 }
 
 
-
-
+.section2 {
+    margin: 0px 10px;
+}
 
 
 .section2 img {
@@ -302,7 +318,9 @@ img {
 .section2 button:hover {
     background-color: #0000008b;
     transition: 0.3s;
-    font-size: 20px;
+    font-size: 17px;
+    width: 300px;
+    height: 45px;
     color: #f5f5f5;
 }
 
@@ -321,7 +339,7 @@ img {
 
 .yunus {
     text-align: left;
-    height: 500px;
+    height: 600px;
     background: rgba(255, 0, 0, 0);
     background: rgba(245, 222, 179, 0);
     border-radius: 10px;
@@ -338,7 +356,7 @@ p {
 }
 
 .section3 {
-    height: 300px;
+    height: 350px;
     border: 1px solid #ffffffac;
     border-radius: 10px;
     text-align: left;
@@ -386,6 +404,7 @@ td {
 }
 
 td {
+    background-color: #ffffff;
     font-size: 20px;
     text-align: center;
     padding: 14px;
@@ -401,6 +420,7 @@ th {
 
 
 .question {
+    background-color: #ffffff;
     width: 360pc;
     text-align: left;
     font-size: 17px;
@@ -409,6 +429,7 @@ th {
 
 
 select {
+    background-color: #ffffff;
     height: 30px;
     width: 140px;
     font-size: 16px;
@@ -418,6 +439,7 @@ select {
 }
 
 #selector {
+    border: 1px solid #000000;
     text-align: center;
     cursor: pointer;
     color: #000;
@@ -434,60 +456,183 @@ select {
 }
 
 
+
+
+
+
+
+
+
 .News h1 {
     margin: 100px 80px 20px;
+    text-align: left;
     font-size: 40px;
+    background-color: rgba(255, 255, 255, 0);
     font-weight: bold;
 }
+
+
 
 .News p {
     margin: 20px 80px;
     font-size: 14px;
     font-weight: 500;
+    color: #0000008c;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .section5 {
+    
+    line-height: 1.1;
+    height: 400px;
+    width: 1200px;
+    margin: 24px auto; 
     display: flex;
-    background-color: #c84646;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff00;
 }
+
+
+
+.setalite {
+    margin: 10px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+
+
+.rightboxh2{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 img.news {
-    background-color: #e3a8a8;
+    margin-top: -5px;
+    text-align: top, left;
+    background-color: #ffffff;
     height: 40px;
-    width: 100px;
+    width: 130px;
 }
 
-.box11 {
-    background-color: rgb(73, 165, 102);
+.box11, small {
+
+    background-color: rgb(255, 255, 255);
+}
+
+#box11 {
+    background-color: rgb(255, 255, 255);
     display: flex;
     height: 400px;
+    justify-content: center;
+    padding: 25px 15px;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+#box111 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 400px;
+    width: 100%;
     justify-content: space-between;
-    padding: 30px 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 32px;
-    margin-bottom: 30px;
+    padding: 25px 20px 25px 50px;
+    margin: 20px 10px;
+    box-shadow: 0 0px 5px 0 #49583fa3;
     border-radius: 10px;
 }
 
-.leftbox {
-    background-color: rgb(125, 24, 24);
-    margin-left: 40px;
+
+.setalite2 {
+    text-align: end;
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
 }
 
-.rightbox,
-.rightbox {
-    background-color: rgb(65, 27, 27);
+.setalitetxt {
+    text-align: left;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
 }
 
-.setalite {
-    margin: 20px 80px;
-    font-size: 40px;
+
+.readmore {
+    background-color: #006A50;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
     font-weight: bold;
-    color: #C6E4D6;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
 }
+
+
+.readmore:hover {
+    background-color: #347a69;
+    margin-top: 25px;
+    border-radius: 15px;
+    font-size: 17px;
+    height: 45px;
+    width: 130px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -510,10 +655,8 @@ img.news {
 
 .donate>h2 {
     background-color: #e2e3dd00;
-    margin-top: 50px;
+    margin-top: 140px;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
     font-size: 40px;
     font-weight: bold;
     color: #000000;
@@ -526,17 +669,21 @@ img.news {
     margin-left: 80px;
     margin-right: 80px;
     font-size: 15px;
-    color: #000000;
+    color: #000000b6;
 }
 
 
+
+
+
+
 .tk {
-    margin: 0px 10px;
+    margin: 10px 20px;
     text-align: center;
-    background-color: #bcde1100;
-    height: 60px;
-    font-size: 26px;
-    width: 120px;
+    background-color: #ffffff;
+    height: 80px;
+    font-size: 30px;
+    width: 200px;
     border: 1px solid #86868685;
     border-radius: 10px;
     cursor: pointer;
@@ -544,12 +691,12 @@ img.news {
 }
 
 #tk1 {
-    font-size: 27px;
+    font-size: 32px;
     font-weight: bold;
     margin: 20px auto;
     background-color: #C6E4D6;
-    height: 70px;
-    width: 130px;
+    height: 90px;
+    width: 220px;
     border: 1px solid #86868685;
     border-radius: 10px;
     cursor: pointer;
@@ -557,15 +704,24 @@ img.news {
 }
 
 #tk1:hover {
-    font-size: 27px;
+    font-size: 30px;
     font-weight: bold;
-    height: 60px;
-    width: 120px;
+    height: 80px;
+    width: 200px;
     background-color: #da1919;
     color: #0f0f0f;
     transition: 1s;
 }
 
+.tk:hover {
+    font-size: 32px;
+    font-weight: bold;
+    height: 90px;
+    width: 220px;
+    background-color: #da1919;
+    color: #0f0f0f;
+    transition: 1s;
+}
 
 .money {
     margin: 20px 20px;
@@ -573,35 +729,25 @@ img.news {
     text-align: center;
 }
 
-.tk:hover {
-    font-size: 27px;
-    font-weight: bold;
-    height: 70px;
-    width: 130px;
-    background-color: #da1919;
-    color: #0f0f0f;
-    transition: 1s;
-}
 
 #other-amount {
     margin: 0 auto;
     text-align: center;
-    background-color: #cff510;
-    padding: 1px 1px;
-    width: 500px;
+    background-color: #006A50;
+    width: 60%;
     transition: 1s;
 }
 
 #other {
+    
     padding: 10px 0px;
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0 0px 5px 0 #49583fa3;
+    box-shadow: 0 0px 10px 0 #fcfcfc;
     height: 50px;
-    width: 500px;
-    border: 1px solid #86868685;
-    cursor: text;
+    width:100%;
+    border: 1px solid #ffffff;
 }
 
 .donate-button {
@@ -617,7 +763,8 @@ img.news {
 }
 
 #donate {
-    background-color: #C6E4D6;
+    color: #ffffff;
+    background-color: #006A50;
     font-size: 20px;
     font-weight: 600;
     height: 40px;
@@ -629,26 +776,37 @@ img.news {
 }
 
 #donate:hover {
-    background-color: #da1919;
+    background-color: #c6c5c5;
     color: #0f0f0f;
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
     height: 42px;
     width: 152px;
     transition: 1s;
 }
 
-.last-section{
+
+
+
+
+
+
+
+
+
+.last-section {
     height: 250px;
-    width: 90%;
-    margin: 0 auto 70px;
+    width: 80%;
+    margin: 0 auto 100px;
     background-color: #C6E4D6;
     border-radius: 10px;
 }
 
-.last >h1{padding: 30px;
+.last>h1 {
+    padding: 30px;
 }
-.last ,h1 ,small{
+
+.last , .last-h1 , .last-small {
     border-radius: 10px;
     text-align: center;
     background-color: #C6E4D6;
@@ -656,30 +814,49 @@ img.news {
 
 
 
-
-.submit{  
+.submit {
     margin: 40px 0px 0px 0px;
     text-align: center;
     background-color: #C6E4D6;
     justify-content: center;
+    height: 130px;
+    border-radius: 10px;
 }
 
-.subscribe{
-    height: 30px;
+.subscribe {
+    height: 50px;
     width: 100px;
-    border-radius: 0px 4px 4px 0px;
+    margin: 5px 0px 0px -10px;
+    border-radius: 0px 5px 5px 0px;
     border: 0px;
     color: white;
     background-color: #006A50;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 1s;
 }
 
-.email{
+.subscribe:hover {
+    background-color: #da1919;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.email {
     border: 0px;
-    border-radius: 4px 0px 0px 4px;
-    padding: 3px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0px;
     background-color: #ffffff;
-    height: 30px;
-    width: 290px;
+    height: 50px;
+    width: 490px;
+    margin: 0px 0px 15px 0px;
+}
+
+.last-smalll {
+    margin-top: -10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #C6E4D6;
 }
 
 
